@@ -1,0 +1,51 @@
+body{background-color: black;
+text-align: center;
+margin: 0;
+padding: 0%;
+}
+    .heading{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        color: yellow;
+     padding: 24px 0px;
+    }
+.timer{
+    color: black;
+display: flex;
+justify-content: center;
+
+}
+.display{
+    padding: 0px 50px;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.button-div{
+    margin: 30px 0px;
+    padding: 20px 0px;
+}
+.btn{
+padding: 10px 40px;
+margin: 0px 30px;
+border: 1px black solid;
+border-radius: 10px;
+background-color: yellow;
+cursor: pointer;
+}
+.main{
+margin: 80px 0px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .button-div{
+display: flex;
+flex-direction: column;
+    }
+    .btn{
+        margin: 5px 0px;
+    }
+}
